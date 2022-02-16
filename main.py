@@ -146,7 +146,7 @@ def runagglo(matrix):
     for c in kl:
         if list[c] == 100:
             sendBack[i] = int(0)
-        elif list[c] == 50:   #fuck around and find out, future Jake
+        elif list[c] == 50:   #find out, future Jake
             if i%2 == 0:
                 sendBack[i] = int(0)
             else:
@@ -216,7 +216,7 @@ if __name__ == '__main__':
     # open cmd in downloads
     # >javac Bop.java
     # >java Bop
-    # suffer!
+    # 
     ###########################################################################################
 
     NFRs, FRs = importTxt()
